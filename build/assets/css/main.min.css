@@ -234,12 +234,10 @@ input[type="button"] {
     transform: translateY(3px); }
 
 a {
-  color: #0074D9;
+  color: black;
   text-decoration: none;
   outline: 0; }
-  a:hover, a:focus {
-    color: #F012BE; }
-
+ 
 ::selection {
   background: #FFF498; }
 
@@ -318,23 +316,6 @@ hr {
   margin: 10px 0 30px;
   height: 0; }
 
-.flex-video {
-  height: 0;
-  margin-bottom: 0.88889rem;
-  overflow: hidden;
-  padding-bottom: 56%;
-  position: relative; }
-
-.flex-video iframe,
-.flex-video object,
-.flex-video embed,
-.flex-video video {
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  left: 0; }
-
 #header {
   background-image: url("../img/igor-starkov-626935-unsplash.jpg");
   background-repeat: no-repeat;
@@ -380,3 +361,23 @@ a.choose {
   background: black;
   color: white;
   box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2); }
+
+#coffeehouses {
+  background: white;
+  text-align: center; }
+  #coffeehouses h2 {
+    margin: 70px; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 40px; }
+
+.feature-card {
+  background: #f8e473;
+  padding: 30px;
+  box-shadow: 0 12px 10px -10px 0, 0, 0, 0.2;
+  border-top: 3px solid black; }
+  .feature-card h3 {
+    margin: 25px 0 0; }
